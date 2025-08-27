@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+}
+#logo{ 
+    font-size: 2rem; 
+    font-weight: 800; 
+    background: linear-gradient(90deg, #5fe7ff, #856363); /* gradient */ 
+    -webkit-background-clip: text; /* clip background to text */ 
+    background-clip: text; /* clip background to text */ 
+    color: transparent; /* make text transparent */ 
+    transition: all 0.5s ease; }
+ #logo:hover {
+    background: linear-gradient(90deg, #5fe7ff, #a96b87); 
+    -webkit-background-clip: text; /* clip background to text */ 
+    background-clip: text; /* clip background to text */
+    color: transparent; /* make text transparent */ /* new gradient on hover */ }
+
+.navlinks {
+   display: flex;
+   gap: 1.5rem;
+   font-size: 1.4rem;
+   font-weight: 600;
+}
+.navlinks a{
+    color: #000000;
+
+}
+.navlinks a:hover{
+    background: linear-gradient(90deg, #5fe7ff, #a96b87); 
+    -webkit-background-clip: text; /* clip background to text */ 
+    background-clip: text; /* clip background to text */
+    color: transparent; /* make text transparent */ /* new gradient on hover */
+    transition: all 0.5s ease;
+}
+
